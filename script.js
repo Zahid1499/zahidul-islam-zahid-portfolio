@@ -16,3 +16,12 @@ document.querySelectorAll("#navLinks a").forEach(link => {
     navLinks.classList.remove("open");
   });
 });
+
+// Final interaction polish
+document.addEventListener("DOMContentLoaded", () => {
+  const yearElement = document.querySelector(".footer-year");
+
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
+});
