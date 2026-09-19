@@ -760,3 +760,16 @@ h3 {
     flex-direction: column;
   }
 }
+
+/* Final responsive spacing improvement */
+@media (max-width: 768px) {
+  .section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
